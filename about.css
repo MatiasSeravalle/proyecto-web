@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav__container {
+    background-color: #48e;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+}
+
+.nav__ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0 0 20px;
+}
+
+.li--a {
+    text-decoration: none;
+    background-color: #fffe;
+    color: #48e;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-left: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.li--a:hover {
+    background-color: transparent;
+    color: #fff;
+    transition: all .2s;
+    border: 1px solid #fff
+}
+
+.nav__button {
+    background-color: transparent;
+    color: #fff;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    font-size: 20px;    
+    margin-top: 6px;
+}
+
+.nav__button:hover {
+    background-color: #fff;
+    color: #48e;
+    transition: all .2s;
+}
+
+.hist__container {
+    max-width: 1300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hist__contenido {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.historia {
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #1122cc;
+    margin-bottom: 50px;
+}
+
+.hist__p {
+    flex: 1;
+    border: 1px solid #2255ff;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    color: #1a1d23;
+}
+img {
+    width: 600px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.line {
+    width: 100%;
+    border-top: 2px solid #12a;
+    margin-top: 100px;
+}
+
+.section__mv {
+    margin-bottom: 100px;
+}
+
+.m-v__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+.mision__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: 50px;
+    background-color: #2255ff;
+    border-radius: 8px;
+    margin-top: 60px;
+    box-shadow: 0 0 30px #0009;
+}
+
+.mision {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 30px 0 0;
+    color: #fff;
+}
+
+.mis__p {
+    padding: 0 20px;
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.vision__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: 50px;
+    border: 1px solid #2255ff;
+    border-radius: 8px;
+    margin-top: 60px;
+    box-shadow: 0 0 30px #0009;
+}
+
+.vision {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 30px 0 0;
+    color: #2255ff;
+}
+
+.vision__p{
+    padding: 0 20px;
+    font-size: 1.2em;
+    color: #444;
+}
+

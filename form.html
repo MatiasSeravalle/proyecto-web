@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+
+    <nav class="nav__container">
+        <ul class="nav__ul">
+            <li class="nav__li"><a href="index.html" class="li--a">Inicio</a></li>
+            <li class="nav__li"><a href="about.html" class="li--a">Sobre Nosotros</a></li>
+        </ul>
+        <button class="nav__button" onclick="enviar()" id="send">Registrarse</button>
+    </nav>
+    
+    <form action="">
+
+        <div class="container">
+            <h1>Registro</h1>
+            <div class="input__container">
+                <label for="">Nombre</label>
+                <input type="text" placeholder="Matias" required>
+            </div>
+            <div class="input__container">
+                <label for="">Apellido</label>
+                <input type="text" placeholder="Seravalle" required>
+            </div>
+            <div class="input__container">
+                <label for="">Email</label>
+                <input type="email" placeholder="matisera@gmail.com" required>
+            </div>
+            <div class="input__container">
+                <label for="">Contraseña</label>
+                <input type="password" placeholder="12345" required>
+            </div>
+            <div class="input__container">
+                <label for="">Edad</label>
+                <input type="number" required id="date" placeholder="18">
+            </div>
+            <div class="button__container">
+                <button onclick="validar()" type="button">Registrarse</button>
+            </div>
+            <div class="resultado">
+                <h5 id="result"></h5>
+            </div>
+        </div>
+
+    </form>
+
+</body>
+</html>

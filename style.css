@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav__container {
+    position: fixed;
+    background: linear-gradient(#000,transparent);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.nav__ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li--a {
+    text-decoration: none;
+    background-color: #fffe;
+    color: #48e;
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-left: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.li--a:hover {
+    background-color: #48e;
+    color: #fff;
+    transition: all .2s;
+}
+
+.nav__button {
+    background-color: #48e;
+    color: #fff;
+    padding: 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;    
+    margin-top: 20px;
+}
+
+.nav__button:hover {
+    background-color: #13c;
+    transition: all .2s;
+}
+
+.video__container {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido__audi {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.par__container h2 {
+    text-align: center;
+    color: #36d;
+}
+
+.par__container {
+    flex: 1;
+    padding-right: 30px;
+    color: #333;
+    font-size: 1.3em;
+}
+
+.img__container {
+    flex: 1;
+}
+
+.img__container img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.coti__form {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 0 55px #0009;
+    margin-bottom: 100px;
+}
+
+.coti__form h3 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    color: #13c;
+}
+
+.coti__container{
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    padding: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+select {
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.coti__button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 2px solid #48e;
+    background-color: transparent;
+    color: #48e;
+    font-size: 1em;
+}
+
+.coti__button:hover {
+    background-color: #48e;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s;
+}

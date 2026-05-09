@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav__container {
+    background-color: #48e;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+}
+
+.nav__ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0 0 20px;
+}
+
+.li--a {
+    text-decoration: none;
+    background-color: #fffe;
+    color: #48e;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-left: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.li--a:hover {
+    background-color: transparent;
+    color: #fff;
+    transition: all .2s;
+    border: 1px solid #fff
+}
+
+.nav__button {
+    background-color: transparent;
+    color: #fff;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    font-size: 20px;    
+    margin-top: 6px;
+}
+
+.nav__button:hover {
+    background-color: #fff;
+    color: #48e;
+    transition: all .2s;
+}
+
+form {
+    margin-bottom: 100px;
+}
+
+.container {
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px #000a;
+}
+
+h1 {
+    padding-top: 30px;
+    margin-bottom: 40px;
+    color: #003399;
+    font-size: 3em;
+}
+
+.input__container {
+    padding: 20px;
+}
+
+label {
+    padding: 20px;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
+
+input {
+    padding: 7px;
+    border-radius: 6px;
+    border: 1px solid #1122cc;
+    font-size: 1em;
+}
+
+.button__container {
+    padding: 0 0 20px;
+    margin: 20px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #1122cc;
+    background-color: transparent;
+    font-size: 1em;
+    color: #1122cc;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #003399;
+    color: #fff;
+    transition: all .2s
+}
