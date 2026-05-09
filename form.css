@@ -91,9 +91,17 @@ label {
 
 input {
     padding: 7px;
-    border-radius: 6px;
-    border: 1px solid #1122cc;
+    border-radius: 3px;
     font-size: 1em;
+    border: 1px solid #000;
+    border-top: 4px solid #000;
+}
+
+input:focus-visible {
+    outline: none;
+    border: 1px solid #1122cc;
+    border-top: 4px solid #1122cc;
+    color: #1122cc;
 }
 
 .button__container {
