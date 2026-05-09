@@ -6,7 +6,7 @@ body {
 .nav__container {
     position: fixed;
     background: linear-gradient(#000,transparent);
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -19,8 +19,7 @@ body {
     margin: 0;
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    padding: 0 0 20px;
 }
 
 .li--a {
@@ -42,17 +41,19 @@ body {
 }
 
 .nav__button {
-    background-color: #48e;
+    background-color: #1122cc;
     color: #fff;
-    padding: 18px;
-    border: none;
+    padding: 15px 20px;
+    border: 2px solid #1122cc;
     border-radius: 6px;
-    font-size: 16px;    
-    margin-top: 20px;
+    font-size: 20px;    
+    margin-top: 6px;
 }
 
 .nav__button:hover {
-    background-color: #13c;
+    background-color: #fff;
+    color: #1122cc;
+    border: 2px solid #fff;
     transition: all .2s;
 }
 
