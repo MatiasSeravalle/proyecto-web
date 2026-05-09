@@ -13,7 +13,7 @@ function validar() {
         document.getElementById("result").textContent="Su cotizacion es de $150.000"
     }
     if(model == 1 && pay == 2) {
-        document.getElementById("result").textContent="Su cotizacion es de $110.000"
+        document.getElementById("result").textContent="Su cotizacion es de $150.000"
     }
     if(model == 1 && pay == 3) {
         document.getElementById("result").textContent="Su cotizacion es de $200.000"
