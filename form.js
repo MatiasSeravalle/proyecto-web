@@ -18,3 +18,7 @@ function validar() {
         result.textContent="Acceso denegado, tienes que ser mayor de edad";
     }
 }
+
+function catalogo(){
+    window.location.href="index.html#catalogo"
+}

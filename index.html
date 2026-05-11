@@ -13,7 +13,7 @@
         <ul class="nav__ul">
             <li class="nav__li"><a href="index.html" class="li--a">Inicio</a></li>
             <li class="nav__li"><a href="about.html" class="li--a">Sobre Nosotros</a></li>
-            <li class="nav__li"></li><a href="#cotizacion" class="li--a">Cotizacion</a>
+            <li class="nav__li"></li><a href="#catalogo" class="li--a">Catálogo</a>
         </ul>
         <button class="nav__button" onclick="enviar()" id="send">Registrarse</button>
     </nav>
@@ -34,33 +34,23 @@
         </div>
     </section>
 
-    <section id="cotizacion">
-        <form action="" class="coti__form">
-            <h3>Cotización</h3>
-            <div class="coti__container">
-                <label for="">Modelos Disponibles</label>
-                <select name="modelo" id="modelo" class="form__select">
-                    <option value="0">Elija su modelo deseado</option>
-                    <option value="1">Audi RS3</option>
-                    <option value="2">Audi TT</option>
-                    <option value="3">Audi  A5</option>
-                </select>
-            </div>
-            <div class="coti__container">
-                <label for="">Formas de Pago</label>
-                <select name="pago" id="pago" class="form__select">
-                    <option value="0">Elija  su forma de pago</option>
-                    <option value="1">Pago Unico</option>
-                    <option value="2">6 Cuotas sin Interes</option>
-                    <option value="3">12 Cuotas</option>
-                </select>
-            </div>
-            <div class="coti__container button--container">
-                <button class="coti__button" onclick="validar()" type="button">Cotizar</button>
-                <h5 id="result"></h5>
-            </div>
-            
-        </form>
+    <h3 class="title__catalogo">Catálogo</h3>
+
+    <section class="section__catalogo" id="catalogo">
+        <div class="catalogo__container">
+            <img src="imagenes-videos/Gemini_Generated_Image_ywvnwoywvnwoywvn.png" alt="" id="catalogo__img" onclick="cotizar()">
+            <label for="" class="label__catalogo">Audi RS3</label>
+        </div>
+        <div class="catalogo__container">
+            <img src="imagenes-videos/Gemini_Generated_Image_4ja9in4ja9in4ja9.png" alt="" id="catalogo__img" onclick="cotizar()">
+            <label for="" class="label__catalogo">Audi TT</label>
+        </div>
+        <div class="catalogo__container">
+            <img src="imagenes-videos/Gemini_Generated_Image_h2u3lfh2u3lfh2u3.png" alt="" id="catalogo__img" onclick="cotizar()">
+            <label for="" class="label__catalogo">Audi A5</label>
+        </div>
+       
+        
     </section>
 
 </body>
